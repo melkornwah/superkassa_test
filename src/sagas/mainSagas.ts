@@ -1,6 +1,6 @@
+import { MainApi } from 'api';
 import { all, takeEvery, put, delay, call } from 'typed-redux-saga';
 import { mainActions } from '../actions';
-import { MainApi } from '../api'
 
 export function* mainMessagesList(): Generator<any, void, any> {
     try {
